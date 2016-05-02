@@ -1,0 +1,34 @@
+{
+  "name": "webpack-httpolyglot-server",
+  "version": "0.1.0",
+  "description": "Using httpolyglot to serve http/https over the same port for Webpack development server",
+  "main": "lib/server.js",
+  "files": [
+    "lib",
+    "ssl"
+  ],
+  "scripts": {
+    "lint": "eslint lib bin example"
+  },
+  "peerDependencies": {
+    "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "httpolyglot": "^0.1.1",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0",
+    "yargs": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "eslint": "^2.8.0",
+    "webpack": "^1.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhen0409/webpack-httpolyglot-server.git"
+  },
+  "author": "Jhen <developer@jhen.me>",
+  "license": "MIT"
+}
