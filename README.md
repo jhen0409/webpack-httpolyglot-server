@@ -36,7 +36,7 @@ Use `//` as a prefix instead of `http://` or `https://`, but if you're making ch
 
 #### `webpack-hot-middleware` [entry](https://github.com/glenjamin/webpack-hot-middleware#config)
 
-This tool `webpack-hot-middleware` for enable hot module replacement.
+This tool used `webpack-hot-middleware` for enable hot module replacement.
 
 ## Credits
 
