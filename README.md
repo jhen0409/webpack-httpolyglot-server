@@ -23,20 +23,28 @@ Not yet.
 ```js
 var createWebpackServer = require('webpack-httpolyglot-server');
 
-const server = createWebpackServer(config, options, serverOptions);
+const server = createWebpackServer(config, serverOptions);
 ```
 
 The `config` can be Array, it can use multiple config.
 
 ## Configuration
 
-#### publicPath
+#### output.publicPath
 
 Use `//` as a prefix instead of `http://` or `https://`, but if you're making chrome extension (prefix: `chrome-extension://`), it's not applicable.
 
 #### `webpack-hot-middleware` [entry](https://github.com/glenjamin/webpack-hot-middleware#config)
 
 This tool used `webpack-hot-middleware` for enable hot module replacement.
+
+#### devMiddleware
+
+Apply [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware) options.
+
+#### hotMiddleware
+
+Apply [webpack-hot-middleware](https://github.com/glenjamin/webpack-hot-middleware) options.
 
 ## Credits
 
