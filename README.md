@@ -9,6 +9,7 @@ The [React Chrome Extension Boilerplate](https://github.com/jhen0409/react-chrom
 ## Installation
 
 ```bash
+$ npm i --save-dev webpack-hot-middleware
 $ npm i --save-dev webpack-httpolyglot-server
 ```
 
