@@ -18,8 +18,7 @@
     "httpolyglot": "^0.1.1",
     "lodash.omit": "^4.5.0",
     "webpack-dev-middleware": "^1.6.1",
-    "webpack-hot-middleware": "^2.12.2",
-    "yargs": "^5.0.0"
+    "webpack-hot-middleware": "^2.12.2"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
