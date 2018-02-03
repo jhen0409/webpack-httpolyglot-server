@@ -1,6 +1,6 @@
 {
   "name": "webpack-httpolyglot-server",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description":
     "Using httpolyglot to serve http/https over the same port for Webpack development server",
   "main": "lib/server.js",
