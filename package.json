@@ -1,6 +1,6 @@
 {
   "name": "webpack-httpolyglot-server",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description":
     "Using httpolyglot to serve http/https over the same port for Webpack development server",
   "main": "lib/server.js",
@@ -15,7 +15,7 @@
     "express": "^4.14.0",
     "httpolyglot": "^0.1.1",
     "lodash.omit": "^4.5.0",
-    "webpack-dev-middleware": "^2.0.4",
+    "webpack-dev-middleware": "^3.1.3",
     "webpack-hot-middleware": "^2.12.2"
   },
   "devDependencies": {
